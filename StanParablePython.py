@@ -300,12 +300,13 @@ elif user_choice_doors == "r":
             time.sleep(2)
             print("Well, do you know what, since I've completely forgotten what we were supposed to be doing, how about this...")
             time.sleep(2)
-            print(" __  __  _      _______  ______")
-            print("/ / / / | | /| / /  _/ |/ / / /")
-            print("/ /_/ / | |/ |/ // //    /_/_/") 
-            print("\____/  |__/|__/___/_/|_(_|_) ") 
-                                
-                   
+            print(" __   _____  _   _  __        _____ _   _ _ ")
+            print(" \ \ / / _ \| | | | \ \      / /_ _| \ | | |")
+            print("  \ V / | | | | | |  \ \ /\ / / | ||  \| | |")
+            print("   | || |_| | |_| |   \ V  V /  | || |\  |_|")
+            print("   |_| \___/ \___/     \_/\_/  |___|_| \_(_)")
+            time.sleep(3)
+        
 
 
 
