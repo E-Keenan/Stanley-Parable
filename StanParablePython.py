@@ -306,7 +306,15 @@ elif user_choice_doors == "r":
             print("   | || |_| | |_| |   \ V  V /  | || |\  |_|")
             print("   |_| \___/ \___/     \_/\_/  |___|_| \_(_)")
             time.sleep(3)
-        
+            print("Congratulations!")
+            time.sleep(3)
+            print("I know you put in a lot of hard work, and it really paid off, so good job!")        
+            time.sleep(3)
+            print("Oh no. No. I don't feel right about this at all.\nWe both know you didn't put in any actual work for that win.")
+            time.sleep(4)
+            print("Some people win fair and square and this was not one of those situations.")
+            time.sleep(3)
+
 
 
 
