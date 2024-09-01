@@ -1,6 +1,10 @@
+import winsound
 import os
 import sys
 import time
+import threading
+
+
 print("Welcome to The Stanley Parable Python Version. ")
 user_choice_cutscene = input("Show cutscene? Please enter 'y' for Yes or 'n' for No: ").lower()
 if user_choice_cutscene == 'c':
@@ -314,6 +318,29 @@ elif user_choice_doors == "r":
             time.sleep(4)
             print("Some people win fair and square and this was not one of those situations.")
             time.sleep(3)
+            print("Okay, I'm getting weirded out by this.")
+            time.sleep(3)
+            print("I don't care what might happen this time; I have to restart.")
+            time.slee(4)
+            os('cls')
+            time.sleep(2)
+            print("Welcome to The Stanley Parable Python Version. ")
+            time.sleep(3)
+            print("Alright, I've got a solution.")
+            time.sleep(3)
+            print("This time, to make sure we don't get lost,\nI've employed the help of The Stanley Parable Adventure Line™!")
+            time.sleep(4)
+            print("Just follow the Line™. How simple is that?")
+            time.sleep(3)
+            print("Stanley enters the Two Doors Room, not following the Line™")
+            time.sleep(3)
+            print("No, no, I'm done, we're leaving it up to the Line™ from now on.")
+            time.sleep(3)
+            print("You see? The Line™ knows where the story is, it's over in this direction!")
+            time.sleep(3)
+            print("Onward Stanley! To destiny!")
+            
+            
 
 
 
@@ -363,7 +390,53 @@ if user_choice_catwalk_cargo_hall == "s":
         time.sleep(3)
         print("Alright... okay, there we go!\nAlright now!")
         time.sleep(3)
+        print("Stanley enters the apartment.")
+        time.sleep(3)
+        print("Hahahahahaha, Got-cha! Oh, come on. Did you actually think you had a loving wife?\nWho'd want to commit their life to you? I'm trying to make a point here, Stanley,\nI'm trying to get you to see something.\nCome inside. Let me show you what's really going on here")
+        time.sleep(4)
+        print("Stanley tries to walk out of the apartment, but a wall rises to block his way.")
+        time.sleep(4)
+        print("Sorry, but you're in my story now.")
+        time.sleep(3)
+        os('cls')
+        print("This is a very sad story about the death of a man named Stanley.\nStanley is quite a boring fellow. He has a job that demands nothing of him, and every button that he pushes is a reminder of the inconsequential nature of his existence.\nLook at him there, pushing buttons, doing exactly what he's told to do.\nNow, he's pushing a button. Now, he's eating lunch. Now, he's going home; now, he's coming back to work.\nOne might even feel sorry for him, except that he's chosen this life. But in his mind - ah, in his mind he can go on fantastic adventures.\nFrom behind his desk, Stanley dreamed of wild expeditions into the unknown, fantastic discoveries of new lands. It was wonderful. And each day that he returned to work was a reminder that none of it would ever happen to him.")
+        time.sleep(5)
+        print("And so he began to fantasize about his own job.\nFirst he imagined that one day, while at work, he stepped up from his desk to realize that all of his co-workers, his boss, everyone in the building, had suddenly vanished off the face of the Earth.\nThe thought excited him terribly. So, he went further.\nHe imagined that he came to two open doors, and that he could go through either.\nAt last, choice! It barely even mattered what lay behind each door - the mere thought that his decisions would mean something was almost too wonderful to behold.")
+        time.sleep(5)
+        print("As he wandered through this fantasy world, he began to fill it with many possible paths and destinations.\nDown one path lay an enormous round room with monitors and mind controls, and down another was a yellow line that weaved in many directions, and down another was a game with a baby.\nAnd he called it The Stanley Parable.\nIt was such a wonderful fantasy, and so in his head, he relived it again, and then again, and again, over and over, wishing beyond hope that it would never end, that he would always feel this free.\nSurely there's an answer down some new path - mustn't there be?\nPerhaps if he played just one more time.")
+        time.sleep(5)
+        print("But there is no answer.\nHow could there possibly be? In reality, all he's doing is pushing the same buttons he always has.\nNothing has changed. The longer he spends here the more invested he gets, the more he forgets which life is the real one.\nAnd I'm trying to tell him this: that in this world he can never be anything but an observer.\nThat as long as he remains here he's slowly killing himself. But he won't listen to me. He won't stop. Here, watch this. Stanley, the next time the screen asks you to push a button, do not do it.")
+        time.sleep(3)
 
+        def timeout():
+            time.sleep(5)
+            if not key_pressed1 or not key_pressed2:
+                time.sleep()
+                print
+
+        def get_key():
+            global key_pressed
+            input("Press E")
+            key_pressed1 = True
+
+            if key_pressed1 = True
+                input("Press K")
+                key_pressed2 = True
+
+            if key_pressed2 = True
+                time.sleep(10)
+                sys.exit
+
+        key_pressed = False
+        thread = threading.Thread(target=timeout)
+        thread.start()
+        get_key()
+
+        
+        
+        
+        
+        
 if user_choice_catwalk_cargo_hall == "j":
     print("Stanley jumped off the cargo lift")
             
