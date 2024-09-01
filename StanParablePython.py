@@ -408,29 +408,25 @@ if user_choice_catwalk_cargo_hall == "s":
         print("But there is no answer.\nHow could there possibly be? In reality, all he's doing is pushing the same buttons he always has.\nNothing has changed. The longer he spends here the more invested he gets, the more he forgets which life is the real one.\nAnd I'm trying to tell him this: that in this world he can never be anything but an observer.\nThat as long as he remains here he's slowly killing himself. But he won't listen to me. He won't stop. Here, watch this. Stanley, the next time the screen asks you to push a button, do not do it.")
         time.sleep(3)
 
+        key_pressed1, key_pressed2 = False, False
+
         def timeout():
             time.sleep(5)
             if not key_pressed1 or not key_pressed2:
-                time.sleep()
-                print
+                sys.exit()
 
         def get_key():
-            global key_pressed
+            global key_pressed1, key_pressed2
             input("Press E")
             key_pressed1 = True
+            input("Press K")
+            key_pressed2 = True
+            time.sleep(10)
 
-            if key_pressed1 = True
-                input("Press K")
-                key_pressed2 = True
-
-            if key_pressed2 = True
-                time.sleep(10)
-                sys.exit
-
-        key_pressed = False
-        thread = threading.Thread(target=timeout)
-        thread.start()
-        get_key()
+            key_pressed = False
+            thread = threading.Thread(target=timeout)
+            thread.start()
+            get_key()
 
         
         
