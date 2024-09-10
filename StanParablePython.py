@@ -339,6 +339,20 @@ elif user_choice_doors == "r":
             print("You see? The Line™ knows where the story is, it's over in this direction!")
             time.sleep(3)
             print("Onward Stanley! To destiny!")
+            time.sleep(3)
+            print("Though here's a thought...")
+            time.sleep(3)
+            print("Wouldn't wherever we end up be our destination even if there's no story there?")
+            time.sleep(5)
+            print("Or, to put it another way, is the story of no destination still a story?")
+            time.sleep(5)
+            print("Simply by the act of moving forward\nare we implying a journey, such that a destination is inevitably conjured into being\nvia the very manifestation of the nature of life itself...?")
+            time.sleep(5)
+            print("Okay, Stanley, I need to follow this train of thought for a minute, just stick with me.")
+            time.sleep(5)
+            
+
+            
             
             
 
