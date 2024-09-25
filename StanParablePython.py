@@ -350,6 +350,21 @@ elif user_choice_doors == "r":
             time.sleep(5)
             print("Okay, Stanley, I need to follow this train of thought for a minute, just stick with me.")
             time.sleep(5)
+            print("Now we can both agree that the nature of existence is in fact a byproduct of one's subjective experience of that existence, right?")
+            time.sleep(4)
+            print("Okay, now if my experience of your existence rests inside of your subjective experience of this office")
+            time.sleep(4)
+            print("is this office, in fact, the skeleton of my own relative experiential mental subjective construct?")
+            time.sleep(5)
+            print("Woah, woah, woah, woah. Hang on.")
+            time.sleep(3)
+            print("That got a bit weird back there.")
+            time.sleep(3)
+            print("Well, I'd like to apologize. Not sure where I was going with all that.")
+            time.sleep(3)
+            print("You know what? I think what we need right now is a bit of music to lighten the mood!")
+            time.sleep(3)
+            winsound.PlaySound("followStanley.wav", winsound.SND_FILENAME)
             
 
             
@@ -426,7 +441,7 @@ if user_choice_catwalk_cargo_hall == "s":
         if user_terror_apartment == 'e':
             user_terror_apartment2 = input("Press 'K'").lower()
             if user_terror_apartment2 == 'k':
-              print("Goodbye, Stanley. Freddie.")
+              print("Goodbye, Stanley.\nFreddie.")
               sys.exit() 
 
         if user_terror_apartment == 'd':
