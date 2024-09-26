@@ -1,3 +1,4 @@
+import playsound
 import winsound
 import os
 import sys
@@ -321,7 +322,7 @@ elif user_choice_doors == "r":
             print("Okay, I'm getting weirded out by this.")
             time.sleep(3)
             print("I don't care what might happen this time; I have to restart.")
-            time.slee(4)
+            time.sleep(4)
             os.system('cls')
             time.sleep(2)
             print("Welcome to The Stanley Parable Python Version. ")
