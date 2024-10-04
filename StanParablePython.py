@@ -1,4 +1,4 @@
-#import playsound
+#from playsound import playsound
 import winsound
 import os
 import sys
@@ -365,8 +365,45 @@ elif user_choice_doors == "r":
             time.sleep(3)
             print("You know what? I think what we need right now is a bit of music to lighten the mood!")
             time.sleep(3)
-            winsound.PlaySound("followStanley.wav", winsound.SND_FILENAME)
+            #playsound("followStanley.wav")
+            time.sleep(3)
+            print("Wait! Cut the music! Go back and look at the fern!")
+            time.sleep(2)
+            print("- Stanley, this fern will be very important later in the story. Make sure you study it closely and remember it carefully.\nYou won't want to miss anything.")
+            time.sleep(3)
+            #ASCII of fern
+            time.sleep(6)
+            print("Wait, we're... we're back at the office? No! No, no! Line™, you do know we're looking for The Stanley Parable, right? The story?\nIs any of this ringing a bell?")
+            time.sleep(4)
+            print("Stanley entered the Two Doors Room again, still the doors were gone.")
+            time.sleep(3)
+            print("Still missing the doors.")
+            time.sleep(3)
+            print("Did we make a mistake following The Line™? Perhaps we could have found the story on our own.")
+            time.sleep(3)
+            print("Stanley entered the Mind Control Facility")
+            time.sleep(3)
+            print("Oh, no no, no no, not again! Line™,\nhow could you have done this to us, and after we trusted you! After everything we've been through, you -\nOh, I can't take this anymore, to hell with it.\n\nRestart.")
+            time.sleep(4)
+            os.system('cls')
+            time.sleep(3)
+            print("Welcome to The Stanley Parable Python Version.")
+            time.sleep(3)
+            print("You know what, Stanley? I say forget The Adventure Line™. What's it ever done for us?")
+            time.sleep(3)
+            print("We're intelligent people, right? Why can't we make up our own story?\nSomething exciting, daring, mysterious.")
+            time.sleep(3)
+            print("Oh, this all sounds perfectly doable\nWhy don't we simply start wandering in - well, I don't know.\nHow about... this direction!")
+            time.sleep(4)
+            print("Now! Yes, this is exciting!")
+            time.sleep(3)
+            print("Just me and Stanley, forging a new path, a new story! Well, it could be anything!")
+            time.sleep(4)
+            print("What do you want our story to be?\nGo wild! Use your imagination!\nWhatever it might be, Stanley, I'm ready for it!")
+            time.sleep(4)
             
+            
+
 
             
             
