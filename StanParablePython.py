@@ -371,7 +371,26 @@ elif user_choice_doors == "r":
             time.sleep(2)
             print("- Stanley, this fern will be very important later in the story. Make sure you study it closely and remember it carefully.\nYou won't want to miss anything.")
             time.sleep(3)
-            #ASCII of fern
+                                                                                                                                                                                                                                                                                                                                                                                                                
+                
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
             time.sleep(6)
             print("Wait, we're... we're back at the office? No! No, no! Line™, you do know we're looking for The Stanley Parable, right? The story?\nIs any of this ringing a bell?")
             time.sleep(4)
@@ -401,6 +420,18 @@ elif user_choice_doors == "r":
             time.sleep(4)
             print("What do you want our story to be?\nGo wild! Use your imagination!\nWhatever it might be, Stanley, I'm ready for it!")
             time.sleep(4)
+            print("Stabley notices the Adventure Line™ again.")
+            time.sleep(3)
+            print("Oh, no, not You™ again!\nStanley, I'd also like to veto the Line™ from having any role in our awesome new story.\nNo Line™s or monitor rooms.")
+            time.sleep(4)
+            print("Just don't acknowledge It™, and we should be fine.")
+            time.sleep(4)
+            print("Stanley entered the Circular Two Doors Room.")
+            time.sleep(3)
+            print("Ah, a choice! We get to make a decision!\nFrom here, the story is in our control!\nHow important we mustn't squander the opportunity.")
+            time.sleep(4)
+            
+
             
             
 
@@ -500,6 +531,7 @@ if user_choice_catwalk_cargo_hall == "s":
             print("And I tried again.")
             time.sleep(3)
             print("And Stanley pushed a button.")
+            time.sleep(3)
             print("And I tried again.")
             time.sleep(3)
             print("And Stanley pushed a button.")
