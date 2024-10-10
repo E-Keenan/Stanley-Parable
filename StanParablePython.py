@@ -430,6 +430,15 @@ elif user_choice_doors == "r":
             time.sleep(3)
             print("Ah, a choice! We get to make a decision!\nFrom here, the story is in our control!\nHow important we mustn't squander the opportunity.")
             time.sleep(4)
+            print("In fact, I believe I need a minute to think here.\nJust walk in circles for a minute.")
+            time.sleep(3)
+            print("Okay, so I know that each door has to lead somewhere.\nWhich means that somewhere at the place where we're trying to go\nthere must be a reverse door that leads here.")
+            time.sleep(4)
+            print("And that in turn means that our destination corresponds with the counter-inverted reverse door's origin!")
+            time.sleep(3)
+            print("So starting from the right, let us ask\nwill taking the right door lead us to where we're going?")
+            time.sleep(3)
+            print("")
             
 
             
@@ -457,8 +466,6 @@ if user_choice_back_on_track == 'n':
  print("I realize that investing your trust in someone else can be difficult")
  time.sleep(3)
  print("but the fact is that the story has been about nothing but you all this time.")
- time.sleep(3)
- print("There is an option to jump onto a catwalk, or jump entirely off the lift.")
  time.sleep(3)       
  user_choice_catwalk_cargo_hall = input("Catwalk, jump off or stay on? (C/J/S)").lower()
  if user_choice_catwalk_cargo_hall == "c":
