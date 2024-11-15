@@ -16,7 +16,6 @@ if user_choice_cutscene == 'c':
 
 if user_choice_cutscene == 'y':
     #Show the cutscene
-    print("SHOW: CUTSCENE:")
     print("This is the story of a man named Stanley.")
     time.sleep(2.5)
     print("Stanley worked for a company in a big building, where he was Employee No. 427.")
